@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-    <title>Shower Presentation Engine</title>
+    <title>Доступность веб-интерфейсов</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="showerStyles/styles.css">
@@ -20,8 +20,22 @@
         <p>Захар Авсиевич, EffectiveSoft</p>
     </header>
 
+    <section class="slide centered">
+        <img src="pictures/logo.jpg" alt="">
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">
+            <a href="https://twitter.com/a11yminsk">@a11yminsk</a>
+        </h2>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">22 АПРЕЛЯ <br> <span style="color: red;">SPACE</span></h2>
+    </section>
+
     <section class="slide" style="letter-spacing: 0.05em;" id="cover">
-       <h2 class="shout ttu">веб-доступность</h2>
+        <h2 class="shout ttu">Accessibility</h2>
     </section>
 
     <section class="slide">
@@ -32,7 +46,8 @@
         <dl>
             <dt class="ttu">Веб-доступность</dt>
             <dd>
-                это набор требований, методов и технологий разработки интерфейсов, которые делают их доступными для всех пользователей.
+                это набор требований, методов и технологий разработки интерфейсов, которые делают их доступными для всех
+                пользователей.
             </dd>
         </dl>
     </section>
@@ -46,6 +61,15 @@
     </section> -->
 
     <section class="slide centered">
+        <dl>
+            <dt class="ttu">Инклюзивность</dt>
+            <dd>
+                подход, к разработке интерфейса, удобного для каждого
+            </dd>
+        </dl>
+    </section>
+
+    <!-- <section class="slide centered">
         <q>
             Суть веба - в доступности знаний и информации для всего человечества. Когда разработчики создают барьеры, то
             смысл веба теряется.
@@ -58,63 +82,153 @@
             Более конкретно, они могут: воспринимать, понимать, ориентироваться, взаимодействовать и вносить свой вклад
             в Интернете.
         </q>
-    </section>
+    </section> -->
 
-    <section class="slide">
+    <section class="slide ttu">
         <h2 class="shout shrink">инвалиды</h2>
         <svg class="place" width="1024" height="576" viewBox="0 0 16 9">
             <line x1="0" y1="0" x2="16" y2="9" stroke="#c00" stroke-width="0.6"></line>
         </svg>
     </section>
 
-    <section class="slide">
+    <section class="slide ttu">
         <h2 class="shout">каждый из нас</h2>
     </section>
 
     <section class="slide">
         <ul>
-            <li>Тёмная тема на палящем солнце</li>
-            <li class="next">Ссылка, вставленная JavaScript'ом</li>
-            <li class="next">Невозможность увеличения шрифта</li>
-            <li class="next">Нет подписи к неправильно введёному значению в форме</li>
-            <li class="next">Маленький размер шрифта</li>
-            <li class="next">Невозможность зумить сайт на смартфоне</li>
-            <li class="next">Невозможонсть перемещаться по элементам формы с помощью клавиши Tab</li>
+            <li>Реклама на всю страницу</li>
+            <li class="next">Нечитаемые шрифты</li>
+            <li class="next">Невозможно заскейлить сайт</li>
+            <li class="next">Ребёнок на руках</li>
+            <li class="next">Забыли очки дома</li>
+            <li class="next">Маленький экран устройства</li>
+            <li class="next">Медленный интернет</li>
+            <li class="next">Нечитабельность <span class="next">даже в режиме чтения</span></li>
         </ul>
     </section>
 
-    <section class="slide">
-        <h2>Ссылка, вставленная JavaScript'ом</h2>
-        <img src="pictures/not-link-kfc.png" alt="" width="50%">
+    <section class="slide centered">
+        <img src="pictures/reading-mode-compare.png" alt="" width="75%">
+        <p class="copyright">
+            <a
+                href="https://medium.com/@mandy.michael/building-websites-for-safari-reader-mode-and-other-reading-apps-1562913c86c9">
+                Building websites for Safari Reader Mode and other reading apps.
+            </a>
+        </p>
     </section>
 
-    <section class="slide full">
-        <iframe src="https://sdelaysam.by/" frameborder="0"></iframe>
-    </section>
-
-    <section class="slide">
-        <h2>Нет подписи к неправильно введёному значению в форме</h2>
-        <q>Красно-зелёным дальтонизмом страдают до 8 % мужчин и 0,5 % женщин североевропейского происхождения.</q>
-    </section>
+    <!-- <section class="slide">
+        <ul>
+            <li>Палящее солнце</li>
+            <li class="next">Сломали руку</li>
+            <li class="next">Плохое зрение</li>
+            <li class="next">Хронические заболевания (артрит)</li>
+            <li class="next">Когнитивные нарушения от приема лекарств или недосыпания</li>
+            <li class="next">Медленный WiFi, который влияет на загрузку контента</li>
+        </ul>
+    </section> -->
 
     <section class="slide centered">
-        <img src="pictures/bad-form-not-submit.png" alt="" width="70%">
+        <!-- <h2>Ссылка, вставленная JavaScript'ом</h2> -->
+        <img src="pictures/not-link-kfc.png" alt="" width="70%">
     </section>
 
     <section class="slide">
-        <h2 class="shout shrink">&#62; 1млрд (15%)</h2> 
+        <h2 class="shout shrink">&#62; 1млрд (15%)</h2>
     </section>
 
     <section class="slide">
         <h2 class="shout">110-190млн</h2>
     </section>
 
+    <section class="slide">
+        <h2>Факторы, влияющие на доступность</h2>
+        <ul>
+            <li>Биологические факторы</li>
+            <li class="next">Факторы среды</li>
+            <li class="next">Смешанные факторы</li>
+        </ul>
+    </section>
 
+    <section class="slide">
+        <h2>Виды нарушений</h2>
+        <ul>
+            <li>Визуальные</li>
+            <li class="next">Аудиальные</li>
+            <li class="next">Моторные</li>
+            <li class="next">Когнитивные</li>
+        </ul>
+    </section>
 
+    <section class="slide centered">
+        <img src="pictures/disabilities.png" alt="">
+        <p class="copyright">
+            <a
+                href="https://medium.com/@fokinatatiana/%D0%BA%D0%BE%D0%BC%D1%83-%D0%BD%D1%83%D0%B6%D0%BD%D0%B0-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B2-%D0%B2%D0%B5%D0%B1%D0%B5-6a86dc3e532f">Кому
+                нужна доступность в вебе</a>
+        </p>
+    </section>
 
+    <section class="slide">
+        <h2>Визуальные - 253млн</h2>
+        <p>Проблемы со зрением: могут варьироваться от неспособности различать цвета до полного отсутствия зрения.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Дальтонизм</h2>
+        <ul>
+            <li>7-10% мужчин</li>
+            <li>0.5% женщин</li>
+            <li>99% Красно-зелёной слепотой</li>
+        </ul>
+    </section>
+
+    <section class="slide centered">
+        <img src="pictures/bad-form-not-submit.png" alt="" width="90%">
+    </section>
+
+    <section class="slide">
+        <h2>Аудиальные - 360 миллионов человек с потерей слуха</h2>
+        <p>Проблемы со слухом: означают, что у пользователя проблемы с распознаванием звуков, которые звучат со
+            страницы.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Моторные</h2>
+        <p>Проблемы с мобильностью: могут включать невозможность управлять мышью, клавиатурой или сенсорным экраном.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Когнитивные</h2>
+        <p>Пользователю могут потребоваться вспомогательные технологии для чтения текста, так что важно использовать
+            альтернативы для текстовой информации.</p>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Психические нарушения - 15 % старше 60 лет</h2>
+    </section>
+
+    <section class="slide">
+        <ul>
+            <li>Низкая цветовая контрастность</li>
+            <li class="next">Нет состояния перехода с клавиатуры на активных элементах</li>
+            <li class="next">Нет текстового описания для медиафайлов</li>
+            <li class="next">Неправильно размечен контент</li>
+            <li class="next">Нет чёткой иерархии заголовков</li>
+            <li class="next">Неудобное расположение элементов на экране</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Уровни доступности</h2>
+        <ol>
+            <li></li>
+        </ol>
+    </section>
 
     <section class="slide full">
-        <iframe src="http://president.gov.by/special/ru/belarus_ru/" frameborder="0" ></iframe>
+        <iframe src="http://president.gov.by/special/ru/belarus_ru/" frameborder="0"></iframe>
     </section>
 
     <section class="slide centered">
