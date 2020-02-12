@@ -85,7 +85,7 @@
     </section> -->
 
     <section class="slide ttu">
-        <h2 class="shout shrink">инвалиды</h2>
+        <h2 class="shout shrink">инвалидность</h2>
         <svg class="place" width="1024" height="576" viewBox="0 0 16 9">
             <line x1="0" y1="0" x2="16" y2="9" stroke="#c00" stroke-width="0.6"></line>
         </svg>
@@ -99,16 +99,17 @@
         <ul>
             <li>Реклама на всю страницу</li>
             <li class="next">Нечитаемые шрифты</li>
-            <li class="next">Невозможно заскейлить сайт</li>
-            <li class="next">Ребёнок на руках</li>
+            <li class="next">Мелкий текст</li>
+            <li class="next">Заблокированный вьюпорт</li>
+            <li class="next">Шрифт сайта не подстраивается под системный</li>
             <li class="next">Забыли очки дома</li>
             <li class="next">Маленький экран устройства</li>
             <li class="next">Медленный интернет</li>
-            <li class="next">Нечитабельность <span class="next">даже в режиме чтения</span></li>
         </ul>
     </section>
 
-    <section class="slide centered">
+    <!-- РЕЖИМ ЧТЕНИЯ -->
+    <!-- <section class="slide centered">
         <img src="pictures/reading-mode-compare.png" alt="" width="75%">
         <p class="copyright">
             <a
@@ -116,7 +117,7 @@
                 Building websites for Safari Reader Mode and other reading apps.
             </a>
         </p>
-    </section>
+    </section> -->
 
     <!-- <section class="slide">
         <ul>
@@ -145,13 +146,13 @@
     <section class="slide">
         <h2>Факторы, влияющие на доступность</h2>
         <ul>
-            <li>Биологические факторы</li>
+            <li class="next">Биологические факторы</li>
             <li class="next">Факторы среды</li>
             <li class="next">Смешанные факторы</li>
         </ul>
     </section>
 
-    <section class="slide">
+    <!-- <section class="slide">
         <h2>Виды нарушений</h2>
         <ul>
             <li>Визуальные</li>
@@ -159,9 +160,10 @@
             <li class="next">Моторные</li>
             <li class="next">Когнитивные</li>
         </ul>
-    </section>
+    </section> -->
 
     <section class="slide centered">
+        <h2>Виды нарушений</h2>
         <img src="pictures/disabilities.png" alt="">
         <p class="copyright">
             <a
@@ -180,7 +182,7 @@
         <ul>
             <li>7-10% мужчин</li>
             <li>0.5% женщин</li>
-            <li>99% Красно-зелёной слепотой</li>
+            <li>99% Красно-зелёная слепота</li>
         </ul>
     </section>
 
@@ -190,7 +192,7 @@
 
     <section class="slide">
         <h2>Аудиальные - 360 миллионов человек с потерей слуха</h2>
-        <p>Проблемы со слухом: означают, что у пользователя проблемы с распознаванием звуков, которые звучат со
+        <p>Проблемы со слухом означают, что пользователю сложно распознавать звуки, которые звучат со
             страницы.</p>
     </section>
 
@@ -209,11 +211,15 @@
         <h2 class="shout">Психические нарушения - 15 % старше 60 лет</h2>
     </section>
 
+    <section class="slide ttu">
+        <h2 class="shout">недоступный</h2>
+    </section>
+
     <section class="slide">
         <ul>
             <li>Низкая цветовая контрастность</li>
             <li class="next">Нет состояния перехода с клавиатуры на активных элементах</li>
-            <li class="next">Нет текстового описания для медиафайлов</li>
+            <li class="next">Нет текстового описания для медиаконтента</li>
             <li class="next">Неправильно размечен контент</li>
             <li class="next">Нет чёткой иерархии заголовков</li>
             <li class="next">Неудобное расположение элементов на экране</li>
@@ -221,279 +227,329 @@
     </section>
 
     <section class="slide">
+        <h2 class="shout shrink">
+            WCAG
+            <br>
+            <span class="next" style="font-size: 3rem;">The Web Content Accessibility Guidelines</span>
+        </h2>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">
+            4 принципа
+        </h2>
+    </section>
+
+    <section class="slide">
+        <h2>Воспринимаемость</h2>
+        <p>Информация и компоненты интерфейса должны быть представлены пользователю в тех формах, которые он способен
+            воспринимать.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Осуществимость</h2>
+        <p>Пользователь должен иметь возможность воспользоваться компонентами интерфейса и навигацией.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Ясность</h2>
+        <p>Информация и работа пользовательского интерфейса должны быть понятными.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Совместимость</h2>
+        <p>Содержимое должно быть доступно через разные браузеры, включая специальные браузеры для людей с ограниченными
+            возможностями.</p>
+    </section>
+
+    <section class="slide">
         <h2>Уровни доступности</h2>
-        <ol>
-            <li></li>
+        <ol style="font-size: 2.4rem;">
+            <li>A</li>
+            <li>AA</li>
+            <li>AAA</li>
         </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Уровень A</h2>
+        <p>
+            Начальный. Если рекомендации не выполнены, вспомогательные технологии не смогут полностью воспринимать
+            содержимое страницы.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Уровень AA</h2>
+        <p>
+            Идеальная поддержка. Требуется для веб-сайтов правительства и государственных органов ЕС, а также лежит в
+            основе закона ADA Compilence.
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Уровень AAA</h2>
+        <p>
+            Поддержка высокого уровня. Обычно это используется сайтами, которые обслуживают специализированную
+            аудиторию.
+        </p>
     </section>
 
     <section class="slide full">
         <iframe src="http://president.gov.by/special/ru/belarus_ru/" frameborder="0"></iframe>
     </section>
 
+    <section class="slide ttu">
+        <h2 class="shout">зачем делать доступные интерфейсы?</h2>
+    </section>
+
+    <section class="slide ttu">
+        <h2 class="shout">Моральные принципы</h2>
+    </section>
+
+    <section class="slide centered">
+        <q style="font-size: 2rem;">
+            Суть веба - в доступности знаний и информации для всего человечества. Когда разработчики создают барьеры, то
+            смысл веба теряется.
+        </q>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout ttu">инвестиции в будущее</h2>
+    </section>
+
+    <section class="slide centered">
+        <q style="font-size: 2rem;">
+            Не иметь нарушений — это временно
+        </q>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout ttu">клиенты</h2>
+    </section>
+
+    <section class="slide">
+        <ul style="font-size: 2rem;">
+            <li>Apple</li>
+            <li>AirBnb</li>
+            <li>Google</li>
+            <li>Microsoft</li>
+            <li>Financial Times</li>
+            <li>Epam</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout shrink ttu">
+            закон
+        </h2>
+        <p class="copyright">
+            <a href="https://medium.com/web-standards/a11y-and-law-a81dd9dd5fc8">Доступность и закон</a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Евросоюз</h2>
+        <ul style="font-size: 2.5rem;">
+            <li>Директива о веб-доступности</li>
+            <li>Европейский закон о доступности</li>
+            <li>Европейский стандарт EN 301 549</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Директива о веб-доступности («Web Accessibility Directive»)</h2>
+        <p>Обязаны исполнять все государственные учреждения, а также коммерческие компании, которые которые сотрудничают
+            с государством</p>
+        <p>
+            Требования: WCAG 2.0 AA
+        </p>
+        <p class="copyright">
+            <a href="http://nda.ie/Publications/Communications/EU-Web-Accessibility-Directive/">Европейская директива о
+                веб-доступности.</a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Европейский закон о доступности (European Accessibility Act — EAA)</h2>
+        <p>Обязаны исполнять все государственные и коммерческие компании, которые создают информационно-коммуникационные
+            технологии.
+            <br>
+            2022 - Появятся документы о регулировании закона
+            <br>
+            2025 - Все приложения должны быть доступными
+        </p>
+        <p>
+            Требования: WCAG 2.0 (WCAG 2.1) (AA)
+        </p>
+        <p class="copyright">
+            <a href="https://ec.europa.eu/social/main.jsp?catId=1202">Европейский закон о доступности.</a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Европейский стандарт EN 301 549 (Standard EN 301 549 — EN 301 549)</h2>
+        <p>Стандарт даёт только рекомендации. Он становится обязательным, когда на него ссылается документ с юридической
+            силой. Это может быть Директива о веб-доступности или Европейский закон о доступности.</p>
+        <p>
+            Основан на WCAG 2.0 AA
+        </p>
+        <p class="copyright">
+            <a href="http://mandate376.standards.eu/standard">Текст Стандарта.</a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>США</h2>
+        <ul style="font-size: 2.5rem;">
+            <li>Раздел 508</li>
+            <li>ADA Compilence</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Раздел 508 (Section 508)</h2>
+        <p>Обязаны исполнять федеральные агентства и любые компании, которые сотрудничают с ними. Ими могут быть частные
+            фирмы из США и других стран ( + любые организации, получающие субсидии от государства)</p>
+        <p>
+            Требования: WCAG 2.0 AA
+        </p>
+        <p class="copyright">
+            <a
+                href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards">Текст
+                Раздела 508.</a>
+        </p>
+    </section>
+
+    <section class="slide">
+        <h2>Закон об американцах-инвалидах (ADA — Americans with Disabilities Act)</h2>
+        <p>Любые коммерческие и некоммерческие организации, которые оказывают услуги большому числу людей <br>
+            !Общественные места и коммерческие объекты!</p>
+        <p>
+            Требования: WCAG 2.0 AA
+        </p>
+        <p class="copyright">
+            <a href="https://www.ada.gov/2010_regs.htm">Текст Закона об американцах-инвалидах.</a>
+        </p>
+    </section>
+
     <section class="slide centered">
         <img src="pictures/a11y_pressure_statistics.png" alt="">
     </section>
 
-    <!-- <section class="slide">
-        <h2>На Float</h2>
-        <pre>
-            <code class="html" style="padding-left: 0; font-size: 1rem;">
-            &lt;div class=&quot;header&quot;&gt;header&lt;/div&gt;
-            &lt;div class=&quot;container&quot;&gt;
-                &lt;div class=&quot;center&quot; class=&quot;column&quot;&gt;
-                    Lorem ipsum...
-                &lt;/div&gt;
-                &lt;div class=&quot;left&quot; class=&quot;column&quot;&gt;Left&lt;/div&gt;
-                &lt;div class=&quot;right&quot; class=&quot;column&quot;&gt;Right&lt;/div&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;footer&quot;&gt;footer&lt;/div&gt;        
-            </code>
-        </pre>
-        <p class="copyright">
-            <a href="https://alistapart.com/article/holygrail/">alistapart.com/article/holygrail</a>
-        </p>
-    </section> -->
-
-    <!-- <section class="slide" style="padding-top: 50px;">
-        <h2>На Float</h2>
-        <pre style="column-count: 2; font-size: 0.9rem;">
-                <code>.container { </code>
-                <code>  padding-left: 300px; </code>
-                <code>  padding-right: 250px; </code>
-                <code>}</code>
-                <code>.container .column { </code>
-                <code>  position: relative; </code>
-                <code>  float: left; </code>
-                <code>  height: 0; </code>
-                <code>} </code>
-                <code>.footer {</code>
-                <code>  clear: both; </code>
-                <code>} </code>
-                <code>.center { </code>
-                <code>  width: 100%; </code>
-                <code>} </code>
-                <code>.left {</code>
-                <code>  width: 300px;</code>
-                <code>  right: 300px;</code>
-                <code>  margin-left: -100%;</code>
-                <code>} </code>
-                <code>.right {</code>
-                <code>  width: 250px;</code>
-                <code>  margin-right: -250px;</code>
-                <code>} </code>
-        </pre>
+    <section class="slide">
+        <h2 class="shout ttu">ок, сколько стоит?</h2>
     </section>
 
     <section class="slide">
-        <h2>На Flex</h2>
-        <pre>
-            <code class="html" style="font-size: 1.1rem;">
-    &lt;div class=&quot;header&quot;&gt;header&lt;/div&gt;
-    &lt;div class=&quot;center&quot; class=&quot;column&quot;&gt;
-        Lorem ipsum...
-    &lt;/div&gt;
-    &lt;div class=&quot;left&quot; class=&quot;column&quot;&gt;Left&lt;/div&gt;
-    &lt;div class=&quot;right&quot; class=&quot;column&quot;&gt;Right&lt;/div&gt;
-    &lt;div class=&quot;footer&quot;&gt;footer&lt;/div&gt;
-            </code>
-        </pre>
-    </section> -->
+        <h2 class="shout shrink ttu">
+            нисколько!
+        </h2>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout ttu">
+            семантика
+        </h2>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">
+            цена доступности - div
+        </h2>
+    </section>
+
+    <section class="slide full">
+        <img src="pictures/semantics.png" alt="">
+    </section>
+
+    <section class="slide full">
+        <img src="pictures/good-bad.png" alt="">
+    </section>
+
+    <sections class="slide">
+        <img src="pictures/reading-mode-compare.png" alt="">
+    </sections>
+
+    <section class="slide">
+        <ol>
+            <li>Текстовое описание для всего, что не является текстом</li>
+            <li class="next">Титры для мультимедиа</li>
+            <li class="next">Отношение контраста 5:1</li>
+            <li class="next">Вёрстка в относительных единицах</li>
+            <li class="next">Все интерактивные элементы должны иметь состояние фокуса</li>
+            <li class="next">Подпись под неправильно введёным инпутом</li>
+            <li class="next">Явное указание языка страницы и языка элемента, если он отличается от языка страницы</li>
+            <li class="next">Адаптивность</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Разработка с мыслью о доступности</h2>
+        <ul>
+            <li class="next">Код, нацеленный на доступность</li>
+            <li class="next">Доступность - регламент разработки</li>
+            <li class="next">Обсуждать доступность, повышать её осведомлённость</li>
+            <li class="next">Искать альтернативные решения, если есть требования, не отвечающие принципам доступности
+            </li>
+            <li class="next">Делитесь своим опытом!</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout ttu">
+            Тестирование
+        </h2>
+    </section>
+
+    <section class="slide">
+        <h2>Панель Accessibility Tree</h2>
+        <img src="pictures/lighthouse.png" alt="">
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">
+            Прослушивание страницы (VoiceOver, JAWS, NVDA)
+        </h2>
+    </section>
+
+    <section class="slide">
+        <h2>Панель Accessibility Tree</h2>
+        <img src="pictures/tree.png" alt="">
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">
+            <a href="https://chrome.google.com/webstore/detail/lhdoppojpmngadmnindnejefpokejbdd">
+                Плагин ChromeVox
+            </a>
+        </h2>
+    </section>
 
     <section class="slide">
         <h2 class="shout">Спасибо!</h2>
     </section>
 
     <section class="slide centered">
-        <img src="pictures/qr-code.png" alt="" width="50%">
+        <img src="pictures/link.png" alt="" width="50%">
     </section>
 
     <section class="slide">
-        <h2 class="shout"><a href="https://t.me/zavsievich">ZAVSIEVICH</a></h2>
-    </section>
-
-    <section class="slide">
-        <h2>Ссылки на сообщества</h2>
-        <ul style="font-size: 3rem">
-            <li><a href="https://t.me/css_ru">t.me/css_ru</a></li>
-            <li><a href="https://t.me/MinskCSS_MinskJS">t.me/MinskCSS_MinskJS</a></li>
-        </ul>
+        <h2 class="shout"><a href="https://t.me/zavsievich">@ZAVSIEVICH</a></h2>
     </section>
 
     <section class="slide">
         <h2>Ссылки</h2>
         <ul>
-            <li><a href="https://www.w3.org/TR/css-shapes-1/">CSS Shapes Module Level 1</a></li>
-            <li><a href="https://www.w3.org/TR/css-display-3/">CSS Display Module Level 3</a></li>
-            <li><a href="https://www.youtube.com/watch?v=4Clyc38U-MA">Inner & Outer Values of the Display Property</a>
+            <li><a href="https://a11yproject.com">The A11Y Project</a></li>
+            <li><a href="https://www.w3.org/TR/WCAG21/">WCAG 2.1</a></li>
+            <li><a href="https://medium.com/web-standards/heading-levels-229def4e0e33">Важность уровней заголовков для вспомогательных технологий</a>
             </li>
-            <li><a href="https://www.youtube.com/watch?v=XYQ-C-AUsy0">Неквадратный веб, Юлия Бухвалова</a></li>
-            <li><a href="https://css-live.ru/faq/displayflow-root-not-clearfix.html">display: flow-root — не clearfix,
-                    но что это и зачем?</a></li>
-            <li><a href="https://webformyself.com/vvedenie-v-css-shapes/">Введение в CSS Shapes</a></li>
+            <li><a href="https://medium.com/web-standards/what-accessibility-taught-me-207d1ff0e80c">Чему меня научил год изучения и преподавания доступности</a></li>
+            <li><a href="https://medium.com/@fokinatatiana/%D1%87%D0%B5%D0%BA-%D0%BB%D0%B8%D1%81%D1%82-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D0%B8-95826028e46e">Чек-лист доступности</a></li>
+            <li><a href="https://medium.com/web-standards/pragmatic-a11y-rules-b16dd2f77685">Полезные правила доступности, которые останутся в памяти</a></li>
         </ul>
     </section>
-
-
-
-    <!-- <section class="slide">
-        <h2>Shower key features</h2>
-        <ol>
-            <li>Built on HTML, CSS and JavaScript</li>
-            <li>Works in all modern browsers</li>
-            <li>Themes are separated from engine</li>
-            <li>Fully keyboard accessible</li>
-            <li>Printable to PDF</li>
-        </ol>
-        <p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-    </section>
-
-    <section class="slide">
-        <h2>Plain text on your slides</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco
-            laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in
-            reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.
-        </p>
-    </section>
-
-    <section class="slide">
-        <h2>Two columns if you like</h2>
-        <div class="columns two">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-        </div>
-    </section>
-
-    <section class="slide">
-        <h2>All kind of lists</h2>
-        <ol>
-            <li>Simple lists are marked with bullets</li>
-            <li>Ordered lists begin with a number</li>
-            <li>You can even nest lists one inside another
-                <ul>
-                    <li>Or mix their types</li>
-                    <li>But do not go too far</li>
-                    <li>Otherwise audience will be bored</li>
-                </ul>
-            </li>
-            <li>Look, seven rows exactly!</li>
-        </ol>
-    </section>
-
-    <section class="slide">
-        <h2>Serious citations</h2>
-        <figure>
-            <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia.</p>
-            </blockquote>
-            <figcaption>Marcus Tullius Cicero</figcaption>
-        </figure>
-    </section>
-
-    <section class="slide">
-        <h2>Code samples</h2>
-        <pre>
-            <code>&lt;!DOCTYPE html&gt;</code>
-            <code class="mark">&lt;html lang="en"&gt;</code>
-            <code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-            <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-            <code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-            <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-            <code><mark>&lt;/head&gt;</mark></code>
-        </pre>
-    </section>
-
-    <section class="slide">
-        <h2>Even tables</h2>
-        <table>
-            <tr>
-                <th scope="col">Locavore</th>
-                <th>Umami</th>
-                <th>Helvetica</th>
-                <th>Vegan</th>
-            </tr>
-            <tr>
-                <th scope="row">Fingerstache</th>
-                <td>Kale</td>
-                <td>Chips</td>
-                <td>Keytar</td>
-            </tr>
-            <tr>
-                <th scope="row">Sriracha</th>
-                <td>Gluten-free</td>
-                <td>Ennui</td>
-                <td>Keffiyeh</td>
-            </tr>
-            <tr>
-                <th scope="row">Thundercats</th>
-                <td>Jean</td>
-                <td>Shorts</td>
-                <td>Biodiesel</td>
-            </tr>
-            <tr>
-                <th scope="row">Terry</th>
-                <td>Richardson</td>
-                <td>Swag</td>
-                <td>Blog</td>
-            </tr>
-        </table>
-        <p>It’s good to have information organized.</p>
-    </section>
-
-    <section class="slide" id="picture">
-        <h2>Pictures</h2>
-        <figure>
-            <img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-            <figcaption class="copyright right white">
-                <a href="http://fiftyfootshadows.net/">© John Carey</a>
-            </figcaption>
-        </figure>
-        <style>
-            #picture h2 {
-                color: white;
-            }
-        </style>
-    </section>
-
-    <section class="slide">
-        <h2 class="shout shrink">You can even shout this way</h2>
-    </section>
-
-    <section class="slide">
-        <h2>Inner navigation</h2>
-        <ol>
-            <li>Lets you reveal list items one by one</li>
-            <li class="next">To keep some key points</li>
-            <li class="next">In secret from audience</li>
-            <li class="next">But it will work only once</li>
-            <li class="next">Nobody wants to see the same joke twice</li>
-        </ol>
-    </section>
-
-    <section class="slide" id="see-more">
-        <h2 class="shout">
-            <img src="pictures/logo.svg" alt="Shower logo">
-            <a href="https://github.com/shower/shower">See more on GitHub</a>
-        </h2>
-        <style>
-            #see-more h2 {
-                font-size: 100px
-            }
-
-            #see-more img {
-                width: 0.72em;
-                height: 0.72em;
-            }
-        </style>
-    </section> -->
 
     <footer class="badge">
         <a href="https://github.com/shower/shower">Fork me on GitHub</a>
